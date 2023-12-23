@@ -1,0 +1,218 @@
+:root {
+  --black: #29313d;
+  --primary: #9064f5;
+  --orange: #ffc556;
+  --open-sans: "Open Sans", sans-serif;
+  --nunito-sans: "Nunito", sans-serif;
+}
+
+.section_heading {
+  text-align: center;
+  font-family: var(--open-sans);
+  line-height: 27px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 575.98px) {
+  .common-btn {
+    padding: 10px 28px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  /* ======= common css ======== */
+
+  /* ======= navbar css start ======== */
+
+  .nav_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .nav_wrapper .nav_logo img {
+    width: 90px;
+  }
+  .nav_wrapper .menu ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu ul li a {
+    font-size: 14px;
+  }
+  /* ======= navbar css end ======== */
+
+  /* ======= banner css start ======== */
+  #banner_part {
+    padding: 50px 0;
+  }
+  .banner_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner_content h2 {
+    font-size: 24px;
+    width: 300px;
+    margin: 0 auto;
+    font-weight: 600;
+  }
+  .banner_content p {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 44px;
+    font-size: 14px;
+  }
+  .banner_content form {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 32px;
+    padding: 20px 15px;
+    border-radius: 10px;
+    height: 120px;
+  }
+  .banner_content form input {
+    width: 270px;
+    font-size: 14px;
+    line-height: 100%;
+    font-family: var(--nunito-sans);
+    padding: 10px 8px;
+  }
+  .banner_content form .banner_btn {
+    margin-top: 30px;
+  }
+  .banner_img {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    left: 0;
+  }
+  .banner_img img {
+    width: 100%;
+  }
+  /* ======= banner css end ======== */
+
+  /* ======= company css start ======== */
+  #company-part {
+    margin-bottom: 50px;
+  }
+  .company_name {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+  /* ======= company css end ======== */
+
+  /* ======= card css start ======== */
+  #card_part {
+    padding: 0 10px;
+  }
+
+  .card_header .paragraph {
+    line-height: 150%;
+    font-size: 14px;
+    padding-top: 15px;
+    text-align: justify;
+  }
+  .cards {
+    padding: 30px 0;
+  }
+  .cards .cart_item {
+    border: 1px solid rgba(132, 84, 245, 0.4);
+    border-radius: 10px;
+    padding: 24px 34px 48px 24px;
+    margin: 20px 0;
+    transition: all 0.4s;
+  }
+
+  .cart_item .cart_heading {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .cart_item .cart_heading h4 {
+    color: var(--black);
+    font-family: var(--open-sans);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: capitalize;
+  }
+  .cart_item .cart_heading .icon_box {
+    width: 50px;
+    height: 50px;
+    background-color: #e4eef6;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cart_item .cart_heading .icon_box i {
+    font-size: 20px;
+    color: #0d87e7;
+  }
+  .cart_item p {
+    color: var(--black);
+    font-family: var(--nunito-sans);
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: capitalize;
+    padding: 16px 0 24px;
+  }
+  .cart_item a {
+    color: var(--black);
+    font-family: var(--nunito-sans);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 20px */
+    text-transform: capitalize;
+  }
+  .cards .cart_item:hover {
+    background-color: #8454f5;
+  }
+  .cards .cart_item:hover .cart_heading h4 {
+    color: #fefefe;
+  }
+  .cards .cart_item:hover p {
+    color: #fefefe;
+  }
+  .cards .cart_item:hover a {
+    color: #fefefe;
+  }
+  /* ======= card css end ======== */
+
+  /* ======= business task css start ======== */
+  #business_task {
+    padding: 30px 10px;
+  }
+  .business_cart-img {
+    width: 300;
+  }
+  .business_cart-img img {
+    width: 100%;
+  }
+  .business_content .content {
+    text-align: center;
+  }
+  .business_content .content .paragraph {
+    line-height: 120%;
+    font-size: 14px;
+    padding: 15px 0 20px;
+    text-align: justify;
+  }
+
+  /* ======= business task css end ======== */
+
+  /* ======= business task css start ======== */
+  /* ======= business task css end ======== */
+  /* ======= business task css start ======== */
+  /* ======= business task css end ======== */
+  /* ======= business task css start ======== */
+  /* ======= business task css end ======== */
+  /* ======= business task css start ======== */
+  /* ======= business task css end ======== */
+}
